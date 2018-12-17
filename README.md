@@ -2,7 +2,7 @@
 Installing the RPi.GPIO Library
 In order to read the tactile pushbutton switch status, the RPi.GPIO library needs to be installed on the Raspberry Pi. The RPi.GPIO  is a software module that conveniently allows the Raspberry Pi GPIO pins to be manipulated for electronic controls applications. To install the RPi.GPIO library onto the Raspberry Pi, open the LXTerminal and type the following Linux installation command after the prompt:
 
-pi@raspberrypi ~ $ sudo apt-get install python-dev python-rpi.gpio
+`pi@raspberrypi ~ $ sudo apt-get install python-dev python-rpi.gpio`
 
 After the Linux installation command is entered, you will see a series of RPi.GPIO build-installation file sequences being displayed on the monitor as shown below.
 
@@ -20,7 +20,7 @@ The next phase of the project build is to provide a python script for reading a 
 
 You can enter this script using either the LXTerminal's nano editor or with the Python's IDLE (Integrated Development Environment). Save the script as pbbutton.py in the home/pi directory of the RPi. Next, type the following Linux command to run the script on the RPi into the LXTerminal as shown next.
 
-pi@raspberrypi ~ $ sudo python pbbutton.py
+`pi@raspberrypi ~ $ sudo python pbbutton.py`
 
 Next, press the tactile pushbutton switch. If the script was typed correctly, you will see the message "button press" displayed on the monitor's screen. Congratulations on building a programmable pushbutton switch!
 
